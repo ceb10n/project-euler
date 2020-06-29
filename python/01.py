@@ -9,9 +9,6 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 Project Euler: https://projecteuler.net/problem=1
 Hackerrank: https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem
 """
-import sys
-
-
 def sum_multiples_of_3_or_5(number: int):
     return \
         3 * (((number // 3) * ((number // 3) + 1)) // 2) + \
